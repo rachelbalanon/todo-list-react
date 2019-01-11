@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import TodoItems from "./TodoItems";
 import "./TodoList.css";
 
+
 class TodoList extends Component {
     constructor(props) {
         super(props);
@@ -53,8 +54,8 @@ class TodoList extends Component {
                 <div className="header">
                     <form onSubmit={this.addItem}>
                         <input ref={(a) => this._inputElement = a}
-                            placeholder="enter task"></input>
-                        <button type="submit">add</button>
+                            placeholder="What is your task?"></input>
+                        <button type="submit">+</button>
                     </form>
                 </div>
                 <TodoItems 

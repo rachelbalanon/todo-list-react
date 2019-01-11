@@ -1,10 +1,15 @@
+html {
+    background-image: linear-gradient(rgba(159, 172, 230, .5), rgba(116, 235, 213, .5));
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
 body {
     padding: 50px;
-    background-color: #ccc;
-    font-family: sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 
 #container {
     display: flex;
-    justify-content: flex;
+    justify-content: center;
 }
